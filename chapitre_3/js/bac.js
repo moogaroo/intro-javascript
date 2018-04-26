@@ -11,5 +11,5 @@ if ((moyenne < 10) && (moyenne >= 0 )) { //  0 <= moyenne < 10
 } else if ((moyenne >= 12)  && (moyenne <= 20)) { //  12 <= moyenne <= 20
         alert("le candidat est reçu avec mention");
 } else { // ((moyenne < 0)  || (moyenne > 20) || (moyenne != Number))
-        alert("Désolé, la note doit être un chiffre compris en 0 et 20");
+        alert("Désolé, la note doit être un chiffre compris entre 0 et 20");
 }
